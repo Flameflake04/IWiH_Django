@@ -35,9 +35,7 @@ seaborn
 numpy
 textract
 spacy
-genderize
 pandas
-request
 scikit-learn
 tensorflow
 regex
