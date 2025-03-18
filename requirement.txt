@@ -12,6 +12,7 @@ ipython
 ipython-genutils
 jedi
 matplotlib-inline
+nameparser
 numpy
 pandas
 parso
@@ -34,7 +35,6 @@ seaborn
 numpy
 textract
 spacy
-request
 genderize
 pandas
 python
