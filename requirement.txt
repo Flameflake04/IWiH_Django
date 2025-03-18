@@ -37,7 +37,7 @@ textract
 spacy
 genderize
 pandas
-python
+request
 scikit-learn
 tensorflow
 regex
