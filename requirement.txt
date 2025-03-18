@@ -38,7 +38,7 @@ spacy
 pandas
 scikit-learn
 tensorflow
-request
+genderize
 regex
 keras
 openai
