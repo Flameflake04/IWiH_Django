@@ -38,6 +38,7 @@ spacy
 pandas
 scikit-learn
 tensorflow
+request
 regex
 keras
 openai
