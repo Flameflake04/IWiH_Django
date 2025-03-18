@@ -34,7 +34,7 @@ seaborn
 numpy
 textract
 spacy
-nameparser==1.1.2
+nameparser
 request
 genderize
 pandas
