@@ -22,6 +22,7 @@ psycopg2-binary
 ptyprocess
 Pygments
 python-dateutil
+python-dotenv
 pytz
 six
 sqlparse
