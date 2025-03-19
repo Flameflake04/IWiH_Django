@@ -16,6 +16,7 @@ nameparser
 numpy
 pandas
 parso
+pdfplumber
 pexpect
 pickleshare
 prompt-toolkit
