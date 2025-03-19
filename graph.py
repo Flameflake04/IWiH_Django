@@ -191,6 +191,6 @@ class DataVisualization:
         graphResult.visualize_male_female_authors_pie_chart()
         graphResult.visualize_male_female_pronouns_pie_chart()
 if __name__ == "__main__":
-    graphResult = DataVisualization("EdgeCase_MaleDisease.pdf")
+    graphResult = DataVisualization("sample1.pdf")
     graphResult.graph_combination()
     

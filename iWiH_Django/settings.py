@@ -23,7 +23,8 @@ STATIC_URL = '/static/'
 
 # Static files (CSS, JavaScript, images) will be stored in the 'static' directory within each app.
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # This points to the 'static' folder in your project root
+    BASE_DIR / "static",
+    BASE_DIR / "static/pdf" 
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
