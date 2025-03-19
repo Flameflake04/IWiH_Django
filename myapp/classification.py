@@ -34,7 +34,9 @@ class GenderClassifier:
                                  batch_size=2,
                                  validation_data=(X_val, y_val),
                                  verbose=1)
-
+        
+        self.model.save_weights("gender_classifier.weights.h5")
+        
     def predict(self, input_scores):
         input_array = np.array([input_scores])
         
@@ -43,7 +45,10 @@ class GenderClassifier:
         return predicted_class
 
 if __name__ == "__main__":
+    '''
     classifier = GenderClassifier()
     classifier.train("train.csv") 
     prediction = classifier.predict([0.5, 0.91, 0.01])
+    
     print(f"Predicted Class: {prediction}")
+    '''

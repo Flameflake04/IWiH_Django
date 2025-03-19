@@ -15,7 +15,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from dotenv import load_dotenv
 from django.conf import settings
-
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iWiH_Django.settings')
 django.setup()
 class PaperAnalysis:
@@ -177,7 +179,11 @@ class PaperAnalysis:
             self.male_participant_ratio = round((self.male_participants_count / total_participants), 2)
         self.disease_male_or_female_only = self.genderSpecficDisease.open_AI_classification()
         print(self.genderSpecficDisease)
-        self.genderBiasedClassifier.train(os.path.join(settings.BASE_DIR, 'myapp', "train.csv"))
+        weights_path = os.path.join(settings.BASE_DIR, "myapp", "gender_classifier.weights.h5")
+        self.genderBiasedClassifier.model.load_weights(weights_path)
+        '''
+        self.genderBiasedClassifier.train(os.path.join(settings.BASE_DIR, 'myapp', "train.csv"))'
+        '''
         self.model_result = self.genderBiasedClassifier.predict(np.array([self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio]))[0][0]
         self.disease_male_or_female_only = self.disease_male_or_female_only.strip("'").lower()
         if (self.disease_male_or_female_only == "female"):
