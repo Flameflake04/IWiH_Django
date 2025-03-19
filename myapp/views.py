@@ -9,7 +9,7 @@ import sys
 from model import PaperAnalysis
 
 def home(request):
-    analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
+    # analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
     return render(request, "home.html")
 
 def resultHTML(request):

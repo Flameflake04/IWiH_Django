@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About - IWiH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {font-family: "Lato", sans-serif;}
+.w3-bar, h1, button {font-family: "Montserrat", sans-serif;}
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+}
+.about-text {
+    flex: 1;
+    padding-right: 40px;
+    text-align: left;
+}
+.about-image {
+    flex-shrink: 0;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Maintain layout consistency */
+.w3-twothird {
+    flex: 2;
+    padding-right: 40px;
+}
+
+.w3-third {
+    flex: 1;
+    text-align: center;
+}
+
+/* Spacing for a cleaner look */
+.w3-padding-64 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+</style>
+</head>
+<body>
+    <header class="w3-container w3-center header-blur"></header>
+    
+    <style>
+    .header-blur {
+        position: relative;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        text-align: center;
+        overflow: hidden;
+    }
+    .header-blur::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('https://media.licdn.com/dms/image/v2/C4D1BAQHwvgqUewNm2w/company-background_10000/company-background_10000/0/1583794707176/wihdc_cover?e=2147483647&v=beta&t=QigtobcFPK-pBK_eixdnQQsdMn6wWVhQnLxa-DKotXM') center/cover no-repeat;
+        filter: blur(8px);
+        z-index: -1;
+    }
+    </style>
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a href="{% url 'home' %}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="{% url 'upload_pdf' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Upload</a>
+    <a href="{% url 'about' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="{% url 'future' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">More</a>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="about-container">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>Hello! I'm Xuan Duc Tran, a Computer Science student at the University of Illinois at Chicago. I moved to US in 2022 and started my education as an international student.</p>
+    <h3>My Present Self</h3>
+    <p>Right now, I am working as Teaching Assistant for Advance Data Structure course that help student groups build full stack projects with React and Flask/Django</p>
+    <h3>My Past Self</h3>
+    <p>In the past, I worked as a Data Scientist Intern in a Vietnamese-based tech company. I also worked on a biology lab and ulilized machine learning techniques to analyze microbiome.</p>
+    <h3>My Future Self</h3>
+    <p>I want to be a Full Stack developer with the focus on education or healthcare. I want to pursue higher eduation into Master or PhD in Machine Learning as well.</p>
+    <h3>Contact</h3>
+    <div class="w3-center w3-margin-top">
+        <a href="https://github.com/Flameflake04/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" 
+               alt="GitHub" 
+               style="width: 50px; height: 50px; margin-right: 15px; margin-top: 20px;">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/xuan-duc-tran-2b5631264/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" 
+               alt="LinkedIn" 
+               style="width: 50px; height: 50px; margin-top: 20px;">
+        </a>
+      </div>
+  </div>
+  <div class="about-image">
+    <img src="https://media.licdn.com/dms/image/v2/D5603AQGEjJQtiF0oIA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695598028494?e=1747872000&v=beta&t=SFIrM4LI-W5sakQYc9s-gDWm7Qyok4NMinB4KRlqZhQ" class="profile-img" alt="Xuan Duc Tran">
+  </div>
+  
+</div>
+
+</body>
+</html>
