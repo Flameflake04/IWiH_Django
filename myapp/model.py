@@ -177,7 +177,7 @@ class PaperAnalysis:
             self.male_participant_ratio = round((self.male_participants_count / total_participants), 2)
         self.disease_male_or_female_only = self.genderSpecficDisease.open_AI_classification()
         print(self.genderSpecficDisease)
-        self.genderBiasedClassifier.train("train.csv")
+        self.genderBiasedClassifier.train(os.path.join(settings.BASE_DIR, 'myapp', "train.csv"))
         self.model_result = self.genderBiasedClassifier.predict(np.array([self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio]))[0][0]
         self.disease_male_or_female_only = self.disease_male_or_female_only.strip("'").lower()
         if (self.disease_male_or_female_only == "female"):
