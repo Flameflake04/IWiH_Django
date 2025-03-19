@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>IWiH</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -39,14 +39,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container w3-center header-blur">
-    <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+    
 </header>
 
 <style>
 .header-blur {
     position: relative;
-    height: 45vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,29 +88,82 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <style>
 .upload-container {
-  max-width: 500px; /* Set max width */
-  margin: auto; /* Center the form */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
 }
 
-input[type="file"] {
-  padding: 10px;
-  background: white;
-  cursor: pointer;
+.upload-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-button {
-  font-size: 18px;
-  padding: 12px 24px;
-  transition: 0.3s;
+.upload-container .form-group {
+    margin-bottom: 20px;
 }
 
-button:hover {
-  background-color: #555;
+.upload-container input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upload-container input[type="file"]:hover {
+    border-color: #0056b3;
+}
+
+.upload-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-container button:hover {
+    background-color: #0056b3;
 }
 </style>
 
 
+
+
+<div class="w3-container w3-padding-32 w3-center">
+    <h2 class="w3-text-dark-gray w3-margin-bottom">Download Sample PDFs</h2>
+    {% load static %}
+    <div class="w3-card w3-round-large w3-white w3-padding w3-animate-opacity" style="max-width: 500px; margin: auto;">
+        <ul class="w3-ul w3-hoverable w3-light-grey w3-round-large">
+            <li class="w3-padding">
+                <a href="{% static 'pdf/sample1.pdf' %}" class="w3-button w3-black w3-round-large w3-hover-gray w3-block" download>
+                    📄 Sample 1: Biased Male
+                </a>
+            </li>
+            <li class="w3-padding">
+                <a href="{% static 'pdf/sample2.pdf' %}" class="w3-button w3-black w3-round-large w3-hover-gray w3-block" download>
+                    📄 Sample 2: Male Disease
+                </a>
+            </li>
+            <li class="w3-padding">
+                <a href="{% static 'pdf/sample3.pdf' %}" class="w3-button w3-black w3-round-large w3-hover-gray w3-block" download>
+                    📄 Sample 3: Neutral Paper
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button

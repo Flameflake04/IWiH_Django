@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>IWiH</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -81,7 +81,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Header -->
 <header class="w3-container w3-center header-blur">
     <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"onclick="redirectToUpload()">Get Started</button>
 </header>
 
 <!-- About Section -->
@@ -95,7 +95,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           Despite advancements in healthcare, women continue to be underrepresented in clinical studies, research authorship, and medical trials. 
           My project uses Natural Language Processing (NLP) to analyze and highlight women's underrepresentation in healthcare research papers.</h5>
 
-        <h5 class="w3-text-grey">We evaluate research papers based on: <br>
+        <h5 class="w3-text-grey">I evaluate research papers based on: <br>
           1. Pronoun frequency analysis to identify biases in language usage.<br>
           2. Author gender distribution in references to evaluate representation in academic contributions.<br>
           3. Participant demographics in studies to determine inclusivity in medical trials.</h5>
@@ -121,6 +121,11 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+function redirectToUpload() {
+    window.location.href = "{% url 'upload_pdf' %}";;
+}
+
 </script>
 
 </body>
