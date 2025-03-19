@@ -2,7 +2,10 @@ import textract
 import re
 import spacy
 import os
+import openai
+import django
 from nameparser import HumanName
+from dotenv import load_dotenv
 import requests
 from genderize import Genderize
 from GenderSpecificDisease import GenderDisease
@@ -14,7 +17,7 @@ from dotenv import load_dotenv
 from django.conf import settings
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iWiH_Django.settings')
-
+django.setup()
 class PaperAnalysis:
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
@@ -125,10 +128,28 @@ class PaperAnalysis:
             elif entry['gender'] == 'female':
                 self.female_count += 1
     '''
-    def genderize_author(self):
-        self.male_count = 100
-        self.female_count = 100
 
+    # New openAI API for classifying gender (genderizeAPI is outdated and does not work with Python 3.11 anymore)
+    def genderize_author(self):
+        load_dotenv()
+        openai.api_key = os.getenv("OPEN_AI_KEY")
+        self.author_gender = []
+        for author in self.author_names:
+            messages = [
+            {"role": "user", "content": f"Classify the gender orientation of the author based ON ONLY the name. The name of author is: '{author}'. The options are 'male', 'female', choose whichever has higher probability"}
+            ]
+            response = openai.ChatCompletion.create(
+            model="gpt-4",  
+            messages=messages,
+            max_tokens=10, 
+            temperature=0  
+            )
+            self.author_gender.append(response['choices'][0]['message']['content'].strip())
+        for entry in self.author_gender:
+            if entry == 'male':
+                self.male_count += 1
+            elif entry == 'female':
+                self.female_count += 1
 
 
     def save_pdf_text_to_file(self, filename='pdf_text.txt'):
