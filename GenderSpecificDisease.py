@@ -43,5 +43,5 @@ class GenderDisease():
     
 
 if __name__ == "__main__":
-    genderDisease = GenderDisease("HotFlashes.pdf")
+    genderDisease = GenderDisease("sample3.pdf")
     print(genderDisease.open_AI_classification())

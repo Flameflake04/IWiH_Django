@@ -1,0 +1,1266 @@
+836
+
+Fibrinogen, Viscosity, and White Blood Cell
+Count Are Major Risk Factors for
+Ischemic Heart Disease
+The Caerphilly and Speedwell Collaborative
+Heart Disease Studies
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+John W.G. Yarnell, MD, MFCM; Ian A. Baker, MB, MRCP; Peter M. Sweetnam, MSc;
+David Bainton, MB, MRCP; John R. O'Brien, DM, FRCP;
+Philip J. Whitehead, MB, FRCPath; and Peter C. Elwood, MD, FRCP
+Background. Recent studies have suggested that hemostatic factors and white blood cell count
+are predictive of ischemic heart disease (IHD). The relations of fibrinogen, viscosity, and white
+blood cell count to the incidence of IHD in the Caerphilly and Speedwell prospective studies are
+described.
+Methods and Results. The two studies have a common core protocol and are based on a
+combined cohort of 4,860 middle-aged men from the general population. The first follow-up was
+at a nearly constant interval of 5.1 years in Caerphilly and 3.2 years in Speedwell; 251 major
+IHD events had occurred. Age-adjusted relative odds of IHD for men in the top 20% of the
+distribution compared with the bottom 20% were 4.1 (95% confidence interval, 2.6-6.5) for
+fibrinogen, 4.5 (95% confidence interval, 2.8-7.4) for viscosity, and 3.2 (95% confidence interval,
+2.0-4.9) for white blood cell count. Associations with IHD were similar in men who had never
+smoked, exsmokers, and current smokers, and the results suggest that at least part of the effect
+of smoking on IHD is mediated through fibrinogen, viscosity, and white blood cell count.
+Multivariate analysis shows that white blood cell count is an independent risk factor for IHD
+as is either fibrinogen or viscosity, or possibly both. Jointly, these three variables significantly
+improve the fit of a logistic regression model containing all the main conventional risk factors.
+Further, a model including age, smoking habits, fibrinogen, viscosity, and white blood cell count
+predicts IHD as well as one in which the three hemostatic/rheological variables are replaced by
+total cholesterol, diastolic pressure, and body mass index.
+Conclusion. Jointly, fibrinogen, viscosity, and white blood cell count are important risk
+factors for IHD. (Circulation 1991;83:836-844)
+
+mumerous epidemiological studies1'2 have
+found raised blood pressure, elevated total
+cholesterol, and smoking to be major factors associated with an increased risk of ischemic
+heart disease (IHD). Nevertheless, on an individual
+basis, the prediction of the risk of IHD from levels of
+blood pressure, lipids, and smoking is poor.3 There is
+evidence4,5 that occlusive thrombi are to be found in
+almost all cases of acute myocardial infarction and in
+N
+
+From the Medical Research Council Epidemiology Unit
+(J.W.G.Y., P.M.S., P.C.E.) and the Department of Epidemiology
+and Community Medicine, University of Wales College of Medicine (D.B.), Cardiff, UK; Bristol and Weston Health Authority
+(I.A.B.) and Frenchay Hospital (P.J.W.), Bristol, UK; and St.
+Mary's Hospital (J.R.O'B.), Portsmouth, UK.
+Address for correspondence: Mr. Peter M. Sweetnam, MRC
+Epidemiology Unit, Leandough Hospital, Penarth, South Glamorgan CF6 IXX, UK.
+Received May 25, 1990; revision accepted October 30, 1990.
+
+the majority of sudden cardiac deaths. Thus, there
+may be a role for hemostatic and rheological factors
+in the etiology of the disease. In recent years, there
+have been a few reports6-9 relating hemostatic factors to incidence of IHD and other reports10-12
+showing white blood cell count to be associated with
+risk of the disease.
+See p 1098
+The Caerphilly and Speedwell studies13 recruited
+their joint population of 4,860 middle-aged men
+between 1979 and 1983. In addition to the conventional risk factors, measurements were made of a
+number of hemostatic and rheological variables. In
+the present report of the first follow-up of the two
+cohorts, the roles of fibrinogen, plasma viscosity, and
+white blood cell count in the incidence of ischemic
+heart disease are described.
+
+Yamell et al Hemostatic Factors and Ischemic Heart Disease
+
+Methods
+
+Study Populations
+In the Caerphilly study,13 a 100% sample including
+only men was selected from within a defined area: the
+town of Caerphilly plus five adjacent villages. The men
+were chosen by date of birth so that they were aged
+45-59 years when examined between 1979 and 1983.
+A total of 2,512 men were seen- 89% of the 2,818
+who were found to be eligible. In the Speedwell
+study,'3 a 100% sample including only men was selected from the age/sex registers of 16 general practitioners working from two neighboring health centers
+in the Speedwell area of Bristol. These men were
+chosen so that they were between 45 and 59 years of
+age on September 1, 1978, immediately before the
+study began. The men were thus between 45 and 63
+years old when examined between 1979 and 1982. A
+total of 2,348 men were seen in the recruitment
+phase - 92% of the eligible population of 2,550. The
+combined cohort thus numbers 4,860 men.
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+Survey Methods for Recruitment Phase
+The two studies were conducted by two teams of
+investigators with a common training at the Medical
+Research Council Epidemiology Unit, Cardiff, UK.
+The two studies had a common core protocol, and
+the same laboratories were used for all hematological
+tests.
+The men were invited to attend an afternoon or
+evening clinic. A standard medical and smoking
+history was obtained; the London School of Hygiene
+and Tropical Medicine (LSHTM) chest pain questionnaire was administered; height, weight, and
+blood pressure were measured; and a 12-lead electrocardiogram (ECG) was recorded. Detailed methods for these, and for the wide range of other
+measures made, are described elsewhere.13,14 The
+subjects were then asked to return, after an overnight
+fast, to an early morning clinic where a blood sample
+was taken with minimal venous stasis. Fasting samples were obtained from 4,641 men.
+
+Laboratory Methods
+For measurements of fibrinogen, plasma viscosity,
+and white blood cell count, the sample was immediately distributed into a specimen tube containing
+EDTA. Fibrinogen was estimated by a nephelometric
+method after heat precipitation in buffered saline.15
+Plasma viscosity was measured on a Harkness viscometer.16 White blood cells were counted on a
+Coulter model S-plus (Coulter Corp., Hialeah, Fla.).
+In both studies, at least 5% of the samples sent to the
+laboratory were unidentifiable split-sample duplicates. Coefficients of variation for these blind duplicates were 7% for fibrinogen, 1-2% for viscosity, and
+2-3% for white blood cell count.
+Follow-up Procedure
+The records of all men at the National Health
+Service Central Registry are flagged so that notifica-
+
+837
+
+tion of death is automatic and a copy of the death
+certificate is received. Notifications of all admissions
+to local hospitals with a diagnosis coded International Classification of Diseases (ICD) 410-414
+(ischemic heart disease) are received from the hospital activity analysis (HAA).
+Men who were still alive and resided in, or close to,
+the original area were invited again to a follow-up
+clinic, where the LSHTM chest pain questionnaire,
+in particular, was applied again and a second ECG
+was recorded. The few men who had moved out of
+the respective areas were sent a self-administered
+version of the chest pain questionnaire. This last was
+used in the follow-up simply to identify events that
+might have been myocardial infarctions (see below).
+The results reported in the present study refer to
+the first follow-up in each area. Considerable efforts
+were made to keep the length of follow-up constant
+within each area. In the Caerphilly study, the time to
+first follow-up was 61±5 (mean±SD) months. In the
+Speedwell study, the follow-up interval was 38±3
+months. In the Caerphilly study, 90% of the men
+were seen between 56 and 67 months after entry into
+the study; in the Speedwell study, 90% were seen
+between 34 and 41 months.
+
+Definition of Major Incident IHD Events
+Three types of major incident IHD events have been
+defined: 1) death due to IHD, 2) Clinical myocardial
+infarction, and 3) ECG myocardial infarction.
+Death due to IHD. All death certificates were
+coded by one of us (J.W.G.Y.) according to the ninth
+revision of the ICD. Deaths due to IHD are those
+coded ICD 410-414. Deaths attributed to other
+causes have been treated as non-IHD events.
+Clinical myocardial infarction. The LSHTM chest
+pain questionnaire was extended to include questions
+about hospitalization for severe chest pain. This,
+together with HAA notification of admissions coded
+ICD 410-414, was used as the basis for a detailed
+search of hospital notes to identify events that satisfied the World Health Organization (WHO) criteria
+for definite acute myocardial infarction. In the Caerphilly study, this procedure was followed exactly. In
+the Speedwell study, the hospital notes were not
+available to us at the first follow-up. Instead, we
+defined clinical myocardial infarction as either an
+HAA-notified admission to hospital that was coded
+ICD 410 (acute myocardial infarction) or as any
+event for which the general practitioner had a hospital discharge letter that clearly described an episode satisfying the WHO criteria. Any misclassification introduced by this alternative procedure in the
+Speedwell study is likely to be very small indeed.
+ECG myocardial infarction. The WHO criteria for
+acute myocardial infarction include a series of categories based purely on sequential ECGs. We have
+included only the first of these WHO categories as an
+ECG-defined myocardial infarction: no Q-QS wave
+(Minnesota codes 1-1, 1-2, or 1-3) on the recruitment
+phase ECG but major or moderate 0-OS waves
+
+838
+
+Circulation Vol 83, No 3 March 1991
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+(Minnesota codes in the range 1-1-1 through 1-2-5
+plus 1-2-7) on the follow-up ECG.
+
+TABLE 1. Incidence of Major Ischemic Heart Disease in Two
+Study Areas
+
+Statistical Methods
+Adjusted mean differences in the hemostatic/rheological variables between various groups (Tables 2
+and 4) have been obtained by analysis of covariance,
+using standard multiple regression techniques.
+The remainder of the analysis has been performed
+using multiple logistic regression analysis with the
+occurrence, or not, of a major-incident IHD event as
+the dependent variable. Logistic regression takes no
+account of the timing of events as is required by other
+models, such as that of Cox. However, any model
+involving time would face the problem that "time to
+event" cannot be known for ECG-defined myocardial
+infarction. Men with evidence of IHD when first
+examined have not been excluded from the analysis.
+Instead, for reasons we give later, we have allowed
+for preexistent IHD by including it as a covariate in
+the analysis.
+The difference in incidence between the two study
+areas, Caerphilly and Speedwell, arising from their
+different lengths of follow-up has been accommodated by including area as a two-level factor in all
+analyses. The assumption that the relations between
+incidence of IHD and the independent variables in
+the two areas are parallel on the logit scale was
+tested, and no statistically significant interactions
+were found.
+The variables of interest, fibrinogen, viscosity, and
+white cell count, have been treated in two ways. First,
+their distributions have been divided, within each
+area separately, into equal fifths, and results are
+presented as the odds of major incident IHD in each
+fifth, relative to the odds in the lowest fifth; 95%
+confidence intervals (CIs) for these relative odds
+have been estimated from the logistic regression
+analyses. Second, they have been treated as continuous variables, and the results are presented as
+logistic regression coefficients, with standard errors
+and significance levels.
+
+Type
+Fatal IHD
+Clinical nonfatal MI
+ECG MI
+Total
+Average annual incidence*
+
+Results
+
+Follow-up Status
+A total of 132 (5.3%) Caerphilly men and 106
+(4.5%) Speedwell men died before the first followup. Eight (0.3%) men in each area could not be
+contacted, but 12 of these 16 were known to be alive.
+Of the 4,606 men available for examination, 4,399
+(96%) completed a chest pain questionnaire, and
+4,296 (93%) had a repeat ECG.
+Incidence of Major IHD
+
+Incidence of the three types of major IHD event are
+shown in Table 1. In total, 251 major events occurred.
+The distribution of the three types of IHD event was
+very similar in the two areas; 50% were fatal, 39% were
+clinical nonfatal myocardial infarction, and 11% were
+ECG-defined myocardial infarction.
+
+Caerphilly
+Speedwell
+(n =2,512)
+(n =2,348)
+75 (3.0%)
+51 (2.2%)
+34 (1.4%)
+63 (2.5%)
+15 (0.6%)
+13 (0.6%)
+153 (6.1%)
+98 (4.2%)
+1.2%
+1.3%
+IHD, ischemic heart disease; MI, myocardial infarction; ECG
+MI, MI defined by findings on electrocardiogram (see "Methods").
+*Average length of follow-up was 61 months in Caerphilly and
+38 months in Speedwell.
+
+Missing Data
+The remainder of the analysis is based on the 4,641
+men who provided a fasting blood sample. Of these
+4,641 men, 233 had a major incident IHD event.
+Information was missing on smoking habits for 13
+men, fibrinogen for 35, viscosity for 32, and white
+blood cell count for 26. A total of 4,589 men (among
+whom there were 230 major IHD events) had a
+complete set of these data.
+
+Fibrinogen, Viscosity, and White Blood Cell Count
+Univariate Analyses
+Mean levels of fibrinogen, viscosity, and white
+blood cell count were all higher in the men who
+developed major IHD (Table 2). The mean differences, standardized for age and area, are both large
+and highly statistically significant, with t values in
+excess of six.
+Figure 1 shows relative odds of major incident IHD
+by fifths of the distribution of the three variables. The
+solid lines show the relative odds adjusted for age
+and area. The odds rise steadily as fibrinogen increases so that in the top 20%, relative odds are 4.1
+(95% CI, 2.6-6.5). For viscosity, the corresponding
+relative odds are 4.5 (95% CI, 2.8-7.4), and for white
+blood cell count, they rise steadily to a value of 3.2
+(95% CI, 2.0-4.9).
+Multivariate Analysis
+In assessing the importance of fibrinogen, viscosity,
+and white blood cell count as risk factors for IHD,
+other risk factors have to be taken into account, and
+TABLE 2. Mean Levels of Fibrinogen, Viscosity, and VWhite Blood
+Cell Count and Incidence of Major Ischemic Heart Disease
+
+Incidence*
+No major IHD Major IHD
+
+Age- and
+area-standardized
+difference
+
+(n=233) Mean 95% CI
+(n=4,408)
+4.09+0.92 0.38 0.28-0.49
+Fibrinogen (g/l) 3.66+0.82
+Viscosity (cp) 1.688+0.096 1.735±0.099 0.045 0.032-0.057
+WBCs (109/l)
+7.02+2.01
+7.86+2.22 0.84 0.57-1.10
+IHD, ischemic heart disease; CI, confidence interval; WBCs,
+white blood cells.
+*Values are area-standardized and given as mean+SD.
+
+Yamell et al Hemostatic Factors and Ischemic Heart Disease
+
+839
+
+RELATIVE
+ODDS
+
+RELATIVE
+ODDS
+
+6-
+
+4
+
+FIBRINOGEN
+
+5-
+
+43-
+
+2-
+
+6
+-i
+___Y-
+
+-
+
+_
+
+-
+
+*iI
+
+2_
+
+_
+
+_
+
+_
+
+_
+
+_
+
+_
+
+_
+
+_
+
+_
+
+_
+
+____
+
+A
+
+FIFTHS:
+No. OF MAJOR
+
+1
+
+3
+
+2
+
+33
+
+21
+
+42
+
+5
+
+4
+46
+
+A
+25+
+15-24
+CIGARETrES PER DAY
+
+NEVER
+SMOKED
+
+EXSMOKER
+
+PIPE/
+CIGAR
+
+1-14
+
+729
+
+1536
+
+476
+
+605
+
+770
+
+512
+
+16
+
+74
+
+30
+
+31
+
+47
+
+34
+
+89
+
+IHD EVENTS
+
+NUMBERS
+- MEN
+- MAJOR
+IHD EVENTS
+
+5.
+
+4-
+
+PLASMA V19COSITY
+X
+
+6
+
+0
+
+3.
+
+FIGURE 2. Age- and area-standardized relative odds of a
+major incident ischemic heart disease (IHD) event and smoking habit. *, Base group for calculation of relative odds; 0,
+relative odds (bars indicate 95% confidence interval).
+
+2.
+
+1.
+
+al_-__------------------------1
+1
+
+|
+
+|
+
+|
+
+g
+
+FIFTHS.
+
+2
+
+3
+
+4
+
+5
+
+significantly greater than 1.0 for all five categories of
+smokers.
+It is well known that smokers have substantially
+higher levels of fibrinogen, viscosity, and white blood
+
+17
+
+32
+
+30
+
+71
+
+82
+
+cell count than men who have never smoked, whereas
+
+No.OF MAJOR
+IHD EVENTS
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+exsmokers have intermediate levels that are related
+to the length of time after quitting.17 It is clearly
+possible that the univariate associations between
+IHD and the three hemostatic/rheological variables
+arise solely because both are related to smoking
+
+4-
+
+3-
+
+/
+
+WHITE BLOOD CELLS
+
+habit. In fact, this is not
+
+'
+
+'
+
+'
+
+2
+
+3
+
+4
+
+5
+
+26
+
+31
+
+43
+
+51
+
+81
+
+of IHD events in this subgroup. Multiple logistic
+
+-------------
+
+------
+
+No. OF MAJOR
+I H D EVENTS
+
+regression models that included a term for the inter-
+
+FIGURE 1. Plots showing relative odds of a major incident
+ischemic heart dis ease (IHD) event by fifths of fibrinogen,
+plasma viscosity, awnd white blood cell count. m, Base group for
+P;-_ nA,47cw- X oaas aaUustea
+s
+f<-n"-n.
+jor^X;^
+age ana area;
+oaas;
+cacuiLaton olJ relatLive
+x, odds adjusted for age, area, smoking habit, and preexistent
+IHD; o, odds adjusted for age, area, smoking habit, preexistent IHD, diastolic blood pressure, body mass index, and total
+cholesterol.
+Z
+
+.
+
+Table 3 shows that when
+
+1
+
+2-
+
+FIFTHS:
+
+so.
+
+logistic regression models are fitted separately, the
+coefficients for each of the hemostatic/rheological
+factors are similar in current smokers, exsmokers,
+and men who have never smoked. The coefficients
+are not statistically significant for the men who have
+never smoked, but there are only a small number (16)
+
+f
+
+,
+
+the roles of smoking and of preexistent disease are
+crucial.
+Smoking habits. Incidence of major IHD was lowest
+(2.2%) among men who had never smoked. Figure 2
+shows that all categories of smokers are at least twice
+as likely to develop major IHD as the men who have
+never smoked. Relative odds are smallest, at 2.0, for
+the exsmokers and the lightest cigarette smokers and
+greatest, at 3.0, for the heaviest smokers. They are
+
+action between smoking and each hemostatic factor
+were also fitted. In no case did that interaction term
+approach statistical significance. Thus, there is no
+_evidence
+
+that the relations
+
+ferent smoking
+
+are
+
+different in the dif-
+
+groups.
+
+TABLE 3. Logistic Regression Coefficients for Fibrinogen, Viscosity, and White Blood Cell Count in Relation to Incidence of
+Ischemic Heart Disease Within Smoking Groups
+
+Logistic regression coefficient+SE
+White blood
+cell count
+Viscosity
+Fibrinogen
+0.21+0.20
+2.74+2.63
+0.44±0.26
+0.10+0.06
+4.56+1.15
+0.42+0.13
+0.16+0.03
+3.80+0.76
+0.48+0.10
+
+Smoking group
+Nonsmoker
+Exsmoker
+Current smoker
+Values are mean+SEM.
+Each logistic regression model includes age, area, and one of
+fibrinogen, viscosity, or white blood cell count as independent
+variables.
+
+840
+
+Circulation Vol 83, No 3 March 1991
+TABLE 4. Mean Levels of Fibrinogen, Viscosity, and White Blood Cell Count in Men With and Without Major Incident
+Ischemic Heart Disease According to Preexistent Ischemic Heart Disease Status
+
+Incidence*
+Preexistent IHD
+Absent
+Fibrinogen (gil)
+Viscosity (cp)
+
+No major IHD
+(n =3,427)
+3.61+0.79
+
+WBCs (109/1)
+
+6.96±2.03
+
+Present
+Fibrinogen (g/l)
+
+Viscosity (cp)
+WBCs (109/l)
+
+1.681±0.092
+(n=981)
+3.82±0.90
+1.709±0.104
+7.24±1.93
+
+Major IHD
+(n = 110)
+4.01+1.01
+1.731+0.094
+7.86±2.34
+(n = 123)
+4.15±0.83
+1.738±0.105
+7.86±2.11
+
+Age- and area-standardized
+mean difference
+Mean
+95% CI
+
+0.36
+0.048
+0.90
+
+0.21-0.51
+0.031-0.066
+0.51-1.29
+
+0.31
+0.027
+0.63
+
+0.14-0.47
+0.008-0.047
+0.25-0.99
+
+IHD, ischemic heart disease; CI, confidence interval; WBCs, white blood cells.
+Preexistent IHD includes angina, severe chest pain lasting more than half an hour, and possible and probable
+ischemia according to findings on electrocardiogram.
+*Values are area-standardized and given as mean+SD.
+
+In all subsequent analyses, smoking habit is treated
+as a three-level factor; nonsmoker, exsmoker, and
+current smoker. It was found that subdivision of
+current smokers by dose had no material effect on
+the relations between the incidence of IHD and
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+hemostatic factors.
+Preexistent ischemic heart disease. We have previously shown18 that men with preexistent IHD (angina, history of severe chest pain lasting more than half
+an hour, and ECG ischemia)19 have raised levels of
+fibrinogen, viscosity, and white blood cell count.
+Odds of major IHD in these men relative to the odds
+in men with no evidence of preexistent IHD range
+from 3.0 for possible ECG ischemia to 5.1 for probable ECG ischemia, with angina and history of severe
+chest pain in the intermediate range. It is possible,
+therefore, that the associations of fibrinogen, viscosity, and white blood cell count with incidence of
+major IHD are simply a consequence of preexisting
+disease. In fact, this is not so. Mean levels of the
+three hemostatic/rheological variables in men who
+developed major-incident IHD and those who did
+not are shown in Table 4, subdivided by whether any
+manifestation of existent disease was present on first
+examination. For all three variables, the age- and
+area-standardized mean differences are slightly
+larger for men with no evidence of preexistent IHD,
+and all six mean differences are significantly greater
+than zero (p<0.0001 for all three variables for men
+without preexistent IHD; p<0.01 for men with preexistent IHD).
+Other risk factors. As already described, the solid
+lines in Figure 1 show the relative odds of IHD by
+fifths of the level of fibrinogen, viscosity, and white
+blood cell count adjusted for age and area. The
+crosses show the odds further adjusted for both
+smoking habit and three separate indicators of preexistent disease (angina, severe chest pain, and ECG
+ischemia). For all three variables, this adjustment
+reduces the relative odds. Nevertheless, the effects
+are still large; the odds of major IHD in the top 20%
+of the distributions are still 2.8, 3.5, and 2.3 times the
+
+odds in the lowest 20% for fibrinogen, viscosity, and
+white blood cell count, respectively.
+The circles on Figure 1 show the effect when the
+relative odds are further adjusted for total cholesterol, diastolic blood pressure, and body mass index.
+The changes are small. In the top 20% of the
+distributions, relative odds are 2.6 (95% CI, 1.6-4.3),
+3.2 (95% CI, 1.8-5.6), and 2.2 (95% CI, 1.3-3.5) for
+fibrinogen, viscosity, and white blood cell count,
+respectively. In three multiple logistic regression
+models with the identical sets of variables (except
+that fibrinogen, viscosity and white blood cell count
+are entered as continuous variables), the regression
+coefficients for all three are highly significant
+
+(p<0.000l).
+
+Correlations between the hemostatic/rheological
+variables and cholesterol, blood pressure, and body
+mass index are small. Viscosity is positively correlated (r=0.2) with total cholesterol and shows small
+positive associations (r=0.1) with both diastolic
+blood pressure and body mass index. Fibrinogen has
+a small positive correlation only with total cholesterol; white blood cell count shows no association
+with any of the three.
+Fibrinogen, Viscosity, and White Blood Cell Count
+Considered Jointly
+The three hemostatic/rheological variables are interrelated; the correlation coefficient between fibrinogen and viscosity is 0.57 in both the Caerphilly and
+Speedwell studies, and the coefficients for fibrinogen
+and white blood cell count and for viscosity and white
+blood cell count in the two areas are between 0.24
+and 0.32. Table 5 shows the results of two multiple
+logistic regression models when all three, treated as
+continuous variables, are entered jointly into models
+together with age, area, smoking habit, and preexistent IHD. The second model in Table 5 also includes
+diastolic blood pressure, body mass index, and total
+cholesterol.
+Model 1 in Table 5 shows that the levels of
+significance are substantially lower than when the
+
+Yamell et al Hemostatic Factors and Ischemic Heart Disease
+
+841
+
+TABLE 5. Logistic Regression Coefficients When Fibrinogen, Viscosity, and White Blood Cell Count Are Included
+Together in Two Models Relating Risk Factors to Major Incident Ischemic Heart Disease
+Model 2
+Model 1
+t
+p
+t
+p
+Coefficient
+Variable
+Coefficient
+3.1
+0.002
+2.8
+0.052
+0.005
+0.047
+Age
+1.5
+1.4
+0.16
+0.15
+0.400
+Exsmoker
+0.390
+0.04
+2.1
+0.04
+2.0
+0.585
+Current smoker
+0.534
+
+Fibrinogen
+Plasma viscosity
+White blood cell count
+
+0.174
+1.970
+0.096
+
+1.8
+2.4
+2.9
+
+0.08
+0.02
+0.004
+
+0.210
+1.419
+0.102
+
+2.1
+1.7
+3.0
+
+0.03
+0.10
+0.002
+
+...
+2.1
+0.03
+0.120
+Total cholesterol
+...
+3.1
+0.002
+0.017
+Diastolic BP
+...
+...
+...
+1.0
+0.34
+0.019
+Body mass index
+BP, blood pressure.
+Both models also include area and the three indicators (angina, history of severe chest pain, and ischemia according
+to findings on electrocardiogram) of preexistent ischemic heart disease.
+...
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+three variables are considered individually, particularly for fibrinogen and viscosity, but that those for
+white blood cell count and viscosity are still statistically significant. However, if only two of the variables,
+white blood cell count together with one of either
+fibrinogen or viscosity, are entered into the model,
+then both are significant atp<0.001.
+The addition of total cholesterol (mmol/l), diastolic blood pressure (mm Hg), and body mass index
+(kg/m2) (shown as model 2 in Table 5) marginally
+increases the coefficients for fibrinogen and white
+blood cell count but decreases the coefficient for
+viscosity by nearly 30%. Again, however, if only white
+blood cell count together with either one of fibrinogen or viscosity is entered into model 2, both are
+significant at p<0.001.
+To further evaluate the predictive power of these
+hemostatic/rheological factors, a third model was
+fitted that included only the conventional risk factors: total cholesterol, diastolic blood pressure, and
+body mass index (together with age, area, smoking
+habit, and preexistent IHD). Comparison of this
+third model with the one in which the hemostatic/
+rheological tests were also included (model 2 in
+Table 5) provides an overall significance test for the
+effect of adding fibrinogen, viscosity, and white
+blood cell count to a model containing all the
+conventional risk factors. The improvement in fit is
+highly significant: Y2(3df)=33,p<0.00001.
+Fit and Predictive Power of the Logistic Models
+From model 1 with fibrinogen, viscosity, and white
+blood cell count, a predicted risk for each individual
+was calculated. If that distribution of predicted risk is
+divided into five equal groups, then the sum of the
+individual predicted risks within each fifth is the
+number of major IHD events expected under the
+logistic model. There was close agreement between
+observed and expected events, showing that the
+model fitted the data well. Further, the model had
+
+considerable predictive power. Only 10% of observed
+events occurred in the bottom 40% of the distribution of predictive risk, whereas nearly 80% occurred
+in the top 40%. There were more than 12 times as
+many events in the top 20% as in the bottom 20% of
+the distribution.
+Table 6 compares the predictive power of two
+models, both based on the 4,463 men with complete
+data (models 1 and 3). The predictive power of the
+model with fibrinogen, viscosity, and white blood
+cell count is at least as good as that for the model
+with total cholesterol, diastolic blood pressure, and
+body mass index.
+
+Discussion
+When analyzing cohort studies for the association
+between risk factors and incidence of disease, it is
+common but not universal2 practice to exclude subjects with evidence of IHD on entry. The exclusions
+are usually either a very small8 group of men with
+previous myocardial infarction or a rather ill-defined
+group with clinical symptoms of IHD.20 We have
+TABLE 6. Comparison of Predictive Power of Two Multiple
+Logistic Regression Models
+
+Observed major IHD
+events
+Fifth of
+No.
+of men
+Model 1
+Model 3
+predicted risk
+10
+1
+892
+10
+2
+893
+12
+13
+35
+3
+893
+26
+49
+53
+4
+892
+5
+117
+893
+123
+224
+224
+Total
+4,463
+IHD, ischemic heart disease; model 1, variables included age,
+area, smoking, preexistent IHD, fibrinogen, viscosity, and white
+blood cell count; model 3, variables included age, area, smoking,
+preexistent IHD, total cholesterol, diastolic blood pressure, and
+body mass index.
+
+842
+
+Circulation Vol 83, No 3 March 1991
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+shown,19 as did the British Regional Heart Study,2
+that about 25% of middle-aged British men have
+some evidence of IHD and that just over half the
+major incident IHD events occurred in this group.
+Neither exclusion of a small subgroup nor exclusion
+of the whole group containing over half of the events
+of interest seems to be satisfactory, and like the
+Regional Heart Study, we have included all men in
+the analysis.
+It could be argued that this inclusion of men with
+preexistent IHD increases the possibility that any
+relations found are a consequence of the disease
+already existing rather than a contribution to its
+development. However, this argument only holds
+true if the inclusion of men with preexistent disease is
+ignored in the analysis. We have allowed for their
+presence by including standardized measures of angina, severe chest pain, and ECG ischemia on entry
+to the study as covariates in all analyses. Further, we
+have shown that the relations between the hemostatic variables and incidence of IHD are similar in
+men with and without any evidence of preexistent
+disease. In this circumstance, inclusion of all men
+and the use of preexistent IHD as a covariate will
+result in more accurate estimates of the relations
+between possible risk factors and the incidence of
+IHD than the alternative of excluding relatively small
+groups of men with clinical symptoms and assuming,
+incorrectly, that the remainder are disease free.
+Whether such relations are causal can, of course,
+never be completely answered by any observational
+study.
+Univariate analyses show that white blood cell
+count, fibrinogen, and plasma viscosity are all
+strongly associated with the incidence of major IHD.
+Adjusting only for age and area, the odds of IHD in
+the top 20% of the white blood cell count distribution
+are more than three times the odds in the lowest
+20%; for fibrinogen and viscosity, the corresponding
+relative odds are in excess of four. These relative
+odds are larger than those commonly reported',2 for
+the more conventional risk factors such as blood
+pressure, total cholesterol, high-density lipoprotein
+cholesterol, and body mass index. The important
+question is to what extent these associations are
+independent of smoking habit, preexistent disease,
+and the other conventional risk factors.
+White Blood Cell Count
+There are a number of studies10-12 in the literature
+showing that white blood cell count is associated with
+the incidence of disease, but there is disagreement as
+to whether this association arises solely because both
+are dependent on smoking habit. Zalokar et al"l find
+the association only in smokers who inhale and
+conclude that white blood cell count is simply an
+excellent indicator of exposure to cigarette smoke.
+Friedman et al10 and Grimm et al12 both conclude
+that part of the association is independent of smoking habit. Our data support this latter conclusion.
+Figure 1 shows the relative odds of IHD in the top
+
+20% of the white blood cell count distribution reduced from 3.2 to 2.4 on standardizing for both
+smoking habit and preexistent disease. Further adjustment for total cholesterol, diastolic pressure, and
+body mass index only reduced the odds to 2.2. This is
+a stronger association than that found in the "usual
+care" group of the Multiple Risk Factor Intervention
+Trial,12 in which similarly adjusted relative odds of
+IHD of 1.53 were found in the top third of the white
+blood cell count distribution.
+It is possible that the association between white
+blood cell count and the incidence of IHD is a
+consequence of the disease. However, this explanation is rendered less likely by the finding of a highly
+significant difference in count between men who
+develop the disease and those who do not, among the
+men with no evidence of preexistent disease.
+Mechanisms that might explain this association
+include clumping of granulocytes and monocytes
+and subsequent leukoembolism21 and the role of
+macrophages and monocytes in the development of
+fatty streaks.22,23
+Fibrinogen and Viscosity
+We have been unable to find any published study
+that describes the relation between plasma viscosity
+and the incidence of IHD. However, a positive
+association with plasma fibrinogen has been reported
+in four smaller studies.6-9 In 1,511 middle-aged men,
+Meade et al8 found a difference of 0.25 g/l in
+thrombin-clottable fibrinogen between men who developed IHD and those who did not. The same
+difference was found by Wilhelmsen et a16 in a
+random sample of 792 men. Although results were
+not reported in exactly this manner, it seems that the
+Framingham study9 also found similar differences in
+a 12-year follow-up of 554 men and 761 women.
+Stone and Thorpe,7 in a study of 297 men, found a
+difference of 0.79 g/l using the same nephelometric
+method as in the present study. Thrombin-clottable
+fibrinogen was also measured in the present study,
+but its association with the incidence of IHD was less
+strong than that for the nephelometric fibrinogen.
+The effects that we have found for fibrinogen and
+viscosity are large, and the age-adjusted relative odds
+of IHD are in excess of 4 in the top 20% of the
+distribution of each. Standardization for smoking
+habit and preexistent disease only reduced these
+relative odds to about 2.7 for fibrinogen and 3.5 for
+viscosity. This shows that the association is not explained by smoking. Furthermore, if preexistent IHD
+is caused, even in part, by high "levels"' of the
+hemostatic/rheological factors, then we may have
+"overcontrolled" for this effect, and our estimations
+of relative risks will be conservative. Further standardization for total cholesterol, body mass index,
+and diastolic blood pressure produces little additional change in the relative odds.
+However, fibrinogen and viscosity are not independent of each other; the correlation coefficient between
+them is 0.57. To try to determine which is the more
+
+Yamell et al Hemostatic Factors and Ischemic Heart Disease
+
+important, both fibrinogen and viscosity, together with
+white blood cell count, age, area, smoking habit, and
+preexistent disease, were put into a multiple logistic
+regression model. The results (Table 5) suggest that
+white blood cell count is an independent risk factor,
+but there is no clear differentiation between fibrinogen and viscosity. When either alone was put into the
+model it showed a strong (p<0.001) association with
+IHD, and when both were entered, the joint effect was
+attributed fairly equally to both. It will be possible to
+investigate this more fully as the length of follow-up
+increases and more cases of IHD accrue.
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+Smoking Habit
+All categories of smokers had higher risks of
+developing major IHD than men who had never
+smoked. Relative odds of IHD compared with those
+who had never smoked were 2.5 for current smokers
+and 2.0 for exsmokers. The large excess risk among
+the exsmokers and, particularly, the fact that the risk
+is little different in those who gave up more than 10
+years ago support the contention of the British
+Regional Heart Study24 that part of the excess risk of
+IHD due to smoking remains long after quitting.
+Although the association between smoking and
+IHD has been found by virtually all cohort studies,
+there is no clear understanding of the mechanisms
+involved. The multiple logistic regression model (Table 5) shows that, when white blood cell count,
+fibrinogen, and viscosity are included in the model,
+the relative odds of IHD decline to 1.7 for current
+smokers and 1.5 for exsmokers. This, together with
+the well-known observation17 that levels of all three
+variables are raised in smokers, suggests that at least
+some of the relation between smoking and IHD is
+mediated through an effect on these aspects of
+hemostasis and rheology. This hypothesis could explain why the risk in exsmokers does not quickly
+revert to that in men who have never smoked. We
+have previously shown17 that levels of white blood
+cell count, fibrinogen, and viscosity among exsmokers
+gradually decline but do not reach the levels of
+lifetime nonsmokers even after 10 years.
+Conclusion
+The joint predictive power of fibrinogen, viscosity,
+and white blood cell count is considerable, and when
+they are added to a model containing the major
+conventional risk factors, there is a highly significant
+improvement in the fit of the model. In a multiple
+logistic model that included the three together with
+age, smoking habit, and preexistent disease markers,
+123 (55%) of the major IHD events occurred in the
+top 20% of the distribution of predicted risk; in
+comparison, only 10 (4%) occurred in the bottom
+20% (Table 6). This prediction was at least as good as
+that achieved when the three hemostatic/rheological
+variables were replaced by the conventional risk
+factors of total cholesterol, diastolic pressure, and
+body mass index. Individually, white blood cell count
+
+843
+
+is an independent risk factor as is either fibrinogen or
+viscosity, or possibly both.
+These findings add substance to the views12,2526
+that more work in these under-researched areas
+may yield rich dividends. In particular, research
+into the life-style determinants of fibrinogen, viscosity, and white blood cell count is required; the only
+life-style determinant known at present to have a
+substantial effect is smoking.
+References
+1. Pooling Project Research Group: Relationship of blood pressure, serum cholesterol, smoking habit, relative weight, and
+ECG abnormalities to incidence of major coronary events:
+Final report of the Pooling Project. J Chronic Dis 1978;31:
+
+201-306
+2. Shaper AG, Pocock SJ, Walker M, Phillips AN, Whitehead
+TP, MacFarlane PW: Risk factors for ischaemic heart disease:
+The prospective phase of the British Regional Heart Study.
+J Epidemiol Community Health 1985;39:197-209
+3. Heller RF, Chinn S, Tunstall Pedoe HD, Rose G: How well
+can we predict coronary heart disease? Findings in the United
+Kingdom Heart Disease Prevention Project. Br Med J 1984;
+228:1409-1411
+4. Davies MJ, Woolf N, Robertson WB: Pathology of acute
+myocardial infarction with particular reference to occlusive
+coronary thrombi. Br Heart J 1976;38:659-664
+5. Davies MJ, Thomas A: Thrombosis and acute coronary-artery
+lesions in sudden cardiac ischaemic death. N Engl J Med
+1984;310:1137-1140
+6. Wilhelmsen L, Svardsudd K, Korsan-Bengtsen K, Larsson B,
+Welin L, Tibblin G: Fibrinogen as a risk factor for stroke and
+myocardial infarction. N Engl J Med 1984;311:501- 505
+7. Stone MC, Thorp JM: Plasma fibrinogen: A major coronary
+risk factor. J R Coll Gen Pract 1985;35:565-569
+8. Meade TW, Brozovic M, Chakrabarti RR, Haines AP, Imeson
+JD, Mellows S, Miller GJ, North WRS, Stirling S, Thompson
+SG: Haemostatic function and ischaemic heart disease: Principal results of the Northwick Park Heart Study. Lancet
+
+1986;ii:533-537
+9. Kannel WB, Wolf PA, Castelli WP, D'Agostino RB: Fibrinogen and risk of cardiovascular disease: The Framingham
+
+Study. JAMA 1987;258:1183-1186
+10. Friedman GD, Klatsky AL, Siegelaub AB: The leukocyte
+count as a predictor of myocardial infarction. N Engl J Med
+
+1974;290:1275-1278
+11. Zalokar JB, Richard JL, Clande JR: Leukocyte count, smoking and myocardial infarction. N Engl JMed 1981;304:465-468
+12. Grimm RH, Neaton JD, Ludwig W: Prognostic importance of
+the white cell count for coronary, cancer and all cause
+mortality. JAMA 1985;254:1932-1937
+13. The Caerphilly and Speedwell Collaborative Group: Caerphilly and Speedwell collaborative heart disease studies. J
+Epidemiol Community Health 1984;38:259-262
+14. MRC Epidemiology Unit: The Caerphilly collaborative heart
+disease studies: Project description and manual of operations.
+Cardiff, UK, MRC Epidemiology Unit publication No. ISBN 0
+9508951 1 3, 1985
+15. Thorpe JM, Horstall GB, Stone MC: A new red-sensitive
+micro-nephelometer. Med Biol Eng 1967;5:51-56
+16. Harkness J: The viscosity of human blood plasma: Its measurement in health and disease. Biorheology 1971;8:171-193
+17. Yarnell JWG, Sweetnam PM, Rogers S, Elwood PC, Bainton
+D, Baker IA, Eastham R, O'Brien JR, Etherington MR: Some
+long term effects of smoking on the haemostatic system: A
+report from the Caerphilly and Speedwell Collaborative Surveys. J Clin Pathol 1987;40:909-913
+18. Yarnell JWG, Sweetnam PM, Elwood PC, Eastham R, Gilmour RA, O'Brien JR, Etherington MD: Haemostatic factors
+and ischaemic heart disease: The Caerphilly Study. Br Heart J
+1985;53:483-487
+
+844
+
+Circulation Vol 83, No 3 March 1991
+
+19. Bainton D, Baker IA, Sweetnam PM, Yarnell JWG, Elwood
+PC: Prevalence of ischaemic heart disease: The Caerphilly and
+Speedwell Surveys. Br Heart J 1988;59:201-206
+20. Gordon DJ, Probstfield JL, Garrison RJ, Neaton JD, Castelli
+WP, Knoke JD, Jacobs DR, Bangdiwala S, Tyroler HA:
+High-density lipoprotein cholesterol and cardiovascular disease: Four prospective American studies. Circulation 1989;79:
+8-15
+21. Jacob HS, Hammerschmidt DR: Complement-induced granulocyte aggregation. JAMA 1981;245:2013-2017
+22. Ross R: The pathogenesis of atherosclerosis: An update.
+NEnglJMed 1986;314:488-500
+
+Davies PF: Vascular cell interaction with special reference to
+the pathogenesis of atherosclerosis. Lab Invest 1986;55:5-24
+24. Cook DG, Shaper AG, Pocock SJ, Kussick SJ: Giving up
+smoking and the risk of heart attacks: A report from the
+British Regional Heart Study. Lancet 1986;ii:1376-1380
+25. Meade TW: Thrombosis and ischaemic heart disease (editorial). Br Heart J 1985;53:473-476
+26. Elwood PC: The fat debate: Time to move on. Chem Industry
+1990;59-62
+23.
+
+KEY WORDS * coronary heart disease * rheology * smoking
+* hemostasis
+
+Downloaded from http://ahajournals.org by on September 4, 2024
+
+

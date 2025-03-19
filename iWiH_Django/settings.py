@@ -16,7 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 print(BASE_DIR)
 
-MEDIA_URL = 'myapp/media/'  # URL for serving media files
+MEDIA_URL = 'media'  # URL for serving media files
 MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
 
 STATIC_URL = '/static/'

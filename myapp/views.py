@@ -2,18 +2,25 @@ from django.shortcuts import render, HttpResponse
 from django.core.files.storage import FileSystemStorage
 import os
 from django.conf import settings
-# Create your views here.
+import sys
 
+
+# Now import PaperAnalysis from model
+from model import PaperAnalysis
 
 def home(request):
+    analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
     return render(request, "home.html")
 
-'''
-def uploadPdf(request):
-    return render(request, "pdfUpload.html")
-'''
 def resultHTML(request):
-    pass
+    return render(request, "result.html")
+
+def about(request):
+    return render(request, "about.html")
+
+def future(request):
+    return render(request, "future.html")
+
 
 def uploadPdf(request):
     context = {}
@@ -24,7 +31,7 @@ def uploadPdf(request):
         for filename in os.listdir(media_folder):
             if filename.endswith('.pdf'):
                 file_path = os.path.join(media_folder, filename)
-                os.remove(file_path)  # Remove the file
+                os.remove(file_path) 
 
         # Save the new file
         uploaded_file = request.FILES['pdf_file']

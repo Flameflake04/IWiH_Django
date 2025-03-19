@@ -1,6 +1,7 @@
 import textract
 import re
 import spacy
+import os
 from nameparser import HumanName
 import requests
 from genderize import Genderize
@@ -9,8 +10,11 @@ from classification import GenderClassifier
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-# Regex is just like magic...
-# It is so cool...
+from dotenv import load_dotenv
+from django.conf import settings
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iWiH_Django.settings')
+
 class PaperAnalysis:
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
@@ -110,6 +114,7 @@ class PaperAnalysis:
 
     # I use genderize API to determine the name of the author, male or female
     # I think there is better way to do this, using national reseacher name for example
+    '''
     def genderize_author(self):
         api_key_genderize = 'ff6bfb2eabac483948e08d20c52a9436'
         genderize = Genderize(api_key=api_key_genderize)
@@ -119,6 +124,12 @@ class PaperAnalysis:
                 self.male_count += 1
             elif entry['gender'] == 'female':
                 self.female_count += 1
+    '''
+    def genderize_author(self):
+        self.male_count = 100
+        self.female_count = 100
+
+
 
     def save_pdf_text_to_file(self, filename='pdf_text.txt'):
         with open(filename, 'w') as file:
@@ -169,5 +180,5 @@ class PaperAnalysis:
 
     
 if __name__ == "__main__":
-    analyzer = PaperAnalysis("EdgeCase_MaleDisease.pdf")
-    analyzer.data_combination()    
+    analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
+    print(analyzer.data_combination())    
