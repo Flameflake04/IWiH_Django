@@ -6,7 +6,7 @@ import sys
 
 
 # Now import PaperAnalysis from model
-from model import PaperAnalysis
+# from model import PaperAnalysis
 
 def home(request):
     # analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
