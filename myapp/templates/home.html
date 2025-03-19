@@ -1,103 +1,127 @@
-<!-- templates/myapp/base.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Django Website</title>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
 
-    <style>
-        /* Reset some default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* Custom styles for side-by-side layout */
+.w3-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f2f2f2;
-            color: #333;
-        }
+.w3-twothird {
+    flex: 2;
+    padding-right: 30px;
+}
 
-        header {
-            position: absolute;
-            top: 0;
-            width: 100%;
-            padding: 20px 0;
-            background: linear-gradient(135deg, #007bff, #00aaff);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            z-index: 999;
-        }
+.w3-third {
+    flex: 1;
+    text-align: center;
+}
 
-        header nav ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-        }
+.header-blur {
+    position: relative;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
 
-        header nav ul li {
-            margin: 0 25px;
-        }
-
-        header nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
-
-        header nav ul li a:hover {
-            color: #ffcc00; /* Hover effect color */
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            font-size: 14px;
-            color: #777;
-            margin-top: 30px;
-        }
-
-        footer a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+.header-blur::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://media.licdn.com/dms/image/v2/C4D1BAQHwvgqUewNm2w/company-background_10000/company-background_10000/0/1583794707176/wihdc_cover?e=2147483647&v=beta&t=QigtobcFPK-pBK_eixdnQQsdMn6wWVhQnLxa-DKotXM') 
+                center/cover no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+}
+</style>
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'upload_pdf' %}">Upload</a></li>
-                <!-- Add other navigation links here -->
-            </ul>
-        </nav>
-    </header>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="{% url 'home' %}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="{% url 'upload_pdf' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Upload</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
 
-    <!-- Main Content Section -->
-    <main>
-        {% block content %}
-        <!-- Content for each page will be injected here -->
-        {% endblock %}
-    </main>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="{% url 'home' %}" class="w3-bar-item w3-button w3-padding-large">Upload</a>
+    <a href="{% url 'upload_pdf' %}" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 My Django Website</p>
-    </footer>
-    
+<!-- Header -->
+<header class="w3-container w3-center header-blur">
+    <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- About Section -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-row">
+      <!-- Text Section -->
+      <div class="w3-twothird" style="text-align: justify;">
+        <h1>About This Project</h1>
+        <h5 class="w3-padding-32">The Invisible Woman in Healthcare project is dedicated to addressing gender bias in medical research. 
+          Despite advancements in healthcare, women continue to be underrepresented in clinical studies, research authorship, and medical trials. 
+          My project uses Natural Language Processing (NLP) to analyze and highlight women's underrepresentation in healthcare research papers.</h5>
+
+        <h5 class="w3-text-grey">We evaluate research papers based on: <br>
+          1. Pronoun frequency analysis to identify biases in language usage.<br>
+          2. Author gender distribution in references to evaluate representation in academic contributions.<br>
+          3. Participant demographics in studies to determine inclusivity in medical trials.</h5>
+      </div>
+
+      <!-- Image Section -->
+      <div class="w3-third w3-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Star_of_life2.svg/1024px-Star_of_life2.svg.png" 
+             alt="Rod of Asclepius" 
+             style="width: 300px; height: 300px;">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </body>
 </html>
