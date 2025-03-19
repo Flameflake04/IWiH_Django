@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-import model as PaperAnalysis
+import myapp.model as PaperAnalysis
 class DataVisualization:
     def __init__(self, pdf_path):
         # Initialize PaperAnalysis object with the given PDF path

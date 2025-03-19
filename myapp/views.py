@@ -6,10 +6,9 @@ import sys
 
 
 # Now import PaperAnalysis from model
-# from model import PaperAnalysis
+from myapp.model import PaperAnalysis
 
 def home(request):
-    # analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
     return render(request, "home.html")
 
 def resultHTML(request):
@@ -27,6 +26,7 @@ def uploadPdf(request):
     media_folder = os.path.join(settings.BASE_DIR, 'media')
 
     if request.method == 'POST' and request.FILES.get('pdf_file'):
+        
         # Delete existing PDF files in the media folder
         for filename in os.listdir(media_folder):
             if filename.endswith('.pdf'):
@@ -37,6 +37,8 @@ def uploadPdf(request):
         uploaded_file = request.FILES['pdf_file']
         fs = FileSystemStorage(location=media_folder)
         name = fs.save(uploaded_file.name, uploaded_file)
-        context['url'] = fs.url(name)
-
+        analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, name)).data_combination()
+        context['analyzer'] = analyzer
+        print(analyzer)
+        return render(request, 'result.html', context)
     return render(request, 'pdfUpload.html', context)

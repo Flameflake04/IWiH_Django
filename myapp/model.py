@@ -8,8 +8,8 @@ from nameparser import HumanName
 from dotenv import load_dotenv
 import requests
 from genderize import Genderize
-from GenderSpecificDisease import GenderDisease
-from classification import GenderClassifier
+from myapp.GenderSpecificDisease import GenderDisease
+from myapp.classification import GenderClassifier
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -130,6 +130,7 @@ class PaperAnalysis:
     '''
 
     # New openAI API for classifying gender (genderizeAPI is outdated and does not work with Python 3.11 anymore)
+    '''
     def genderize_author(self):
         load_dotenv()
         openai.api_key = os.getenv("OPEN_AI_KEY")
@@ -150,7 +151,10 @@ class PaperAnalysis:
                 self.male_count += 1
             elif entry == 'female':
                 self.female_count += 1
-
+    '''
+    def genderize_author(self):
+        self.male_count = 100
+        self.female_count = 60
 
     def save_pdf_text_to_file(self, filename='pdf_text.txt'):
         with open(filename, 'w') as file:

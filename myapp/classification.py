@@ -4,7 +4,12 @@ from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-
+import django
+import os
+from dotenv import load_dotenv
+from django.conf import settings
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iWiH_Django.settings')
+django.setup()
 class GenderClassifier:
     def __init__(self):
         self.model = Sequential([
@@ -16,7 +21,8 @@ class GenderClassifier:
                            loss='binary_crossentropy',
                            metrics=['accuracy'])
 
-    def train(self, data_path):
+    def train(self, data_filename):
+        data_path = os.path.join(settings.BASE_DIR, 'myapp', data_filename)
         data = pd.read_csv(data_path)
         X = data[['male_participant', 'male_author', 'male_pronouns']]
         y = data['biased_male']
