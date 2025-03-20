@@ -11,8 +11,6 @@ from genderize import Genderize
 from myapp.GenderSpecificDisease import GenderDisease
 from myapp.classification import GenderClassifier
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 from dotenv import load_dotenv
 from django.conf import settings
 
