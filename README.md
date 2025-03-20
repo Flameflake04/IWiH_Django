@@ -1,7 +1,7 @@
 # Invisible Woman in Healthcare
 
 ## Overview
-*Invisible Woman in Healthcare* is a Django-based web application designed to address and analyze gender bias in medical research. The platform evaluates research papers to determine whether they exhibit gender bias based on three criteria:
+*Invisible Woman in Healthcare* is a Django-based web application designed to address and analyze gender bias in medical research. The platform evaluates research papers to determine whether they contains gender bias based on three criteria:
 1. The frequency of male vs. female pronouns in the text.
 2. The gender distribution of authors in the references.
 3. The gender distribution of participants in the study.
@@ -16,7 +16,7 @@
 - **Frontend**: HTML, CSS, JavaScript
 
 ## Changelog:
-- Version 1.0.0: Basic functionality of gender count and gender participant done. Have to hard-code author count because of Spacy & Numpy dependancy conflict.
+- Version 1.0.0: Basic functionality of gender count and gender participant done. Have to hard-code author count because of Spacy & Numpy dependancy conflict. Priority to quickly fixed that ASAP
 
 ### Prerequisites
 - Python 3.x
