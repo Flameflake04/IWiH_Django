@@ -12,7 +12,6 @@ jedi
 keras
 nameparser
 openai
-pandas
 pdfplumber
 pexpect
 prompt-toolkit
@@ -29,8 +28,8 @@ typing-extensions
 wcwidth
 whitenoise
 textract==1.5.0
-pandas
+pandas==1.5.0
 genderize
-numpy --no-binary :all:
-spacy --no-binary :all:
+numpy==1.23.0
+spacy==3.0.0
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
