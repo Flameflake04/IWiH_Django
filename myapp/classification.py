@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from django.conf import settings
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iWiH_Django.settings')
 django.setup()
+tf.config.set_visible_devices([], 'GPU')
 class GenderClassifier:
     def __init__(self):
         self.model = Sequential([

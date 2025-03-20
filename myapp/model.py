@@ -15,11 +15,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from dotenv import load_dotenv
 from django.conf import settings
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iWiH_Django.settings')
 django.setup()
+
 class PaperAnalysis:
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
