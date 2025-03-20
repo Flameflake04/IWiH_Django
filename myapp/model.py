@@ -109,7 +109,7 @@ class PaperAnalysis:
     # Really important: Check the paper has case study or not
     # If the paper has case study, high chance it is being biased
     def check_if_case_study(self):
-        if re.search(r'\bcase study\b', self.pdf_text, re.IGNORECASE):
+        if re.search(r'\b(?:case study|case studies)\b', self.pdf_text, re.IGNORECASE):
             self.case_study = 1
             print("The paper is a case study")
         else:
@@ -158,7 +158,7 @@ class PaperAnalysis:
         self.female_count = 60
 
     def save_pdf_text_to_file(self, filename='pdf_text.txt'):
-        with open(filename, 'w') as file:
+        with open(filename, 'w', encoding='utf-8') as file:
             file.write(self.pdf_text)
             print(f"Content saved to {filename}")
 
@@ -186,20 +186,10 @@ class PaperAnalysis:
         self.model_result = self.genderBiasedClassifier.predict(np.array([self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio]))[0][0]
         self.disease_male_or_female_only = self.disease_male_or_female_only.strip("'").lower()
 
-        if (self.disease_male_or_female_only == "female"):
-            self.male_participant_ratio = 0
-            self.male_participants_count = 0
-            self.female_participants_count = 255
-            print("This study conducted a research in female-related diseases")
-        elif (self.disease_male_or_female_only == "male"):
+        if self.disease_male_or_female_only == "male" or self.disease_male_or_female_only == "female":
             self.model_result = 0
-            self.male_participant_ratio = 1
-            self.female_participants_count = 0
-            self.male_participant_count = 361
-            print("This study conducted a resaerch in male-related diseases")
-        else:
-            print("The diesase affected both genders")
-
+        if self.case_study == 1:
+            self.model_result = 0
         print(self.male_participant_ratio)
         print(self.male_author_ratio)
         print(self.male_pronouns_ratio)

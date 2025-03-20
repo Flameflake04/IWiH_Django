@@ -72,7 +72,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- First Grid -->
 <div class="w3-container w3-padding-32 w3-center">
   <div class="w3-card w3-padding-32 w3-round-large w3-light-grey upload-container">
-      <h2 class="w3-text-black">Upload Your PDF File</h2>
+      <h2 class="w3-text-black">Upload Your PDF File (In Maintainence)</h2>
       <form action="{% url 'upload_pdf' %}" method="POST" enctype="multipart/form-data" onsubmit="changeButtonToLoading()">
           {% csrf_token %}
           <div class="w3-margin-top">
@@ -177,7 +177,7 @@ function myFunction() {
 function changeButtonToLoading() {
     var submitButton = document.getElementById("submit-btn");
     submitButton.innerHTML = "Loading...";
-    submitButton.disabled = true;  
+    submitButton.disabled = true;  // Optional: Disable the button to prevent multiple clicks
 }
 </script>
 
