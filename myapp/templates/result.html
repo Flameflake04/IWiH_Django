@@ -1,61 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analysis Result</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: auto;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background: #e0e0e0;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .home-btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .home-btn:hover {
-            background: #0056b3;
-        }
-    </style>
+<title>IWiH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+/* Custom styles for side-by-side layout */
+.w3-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.w3-twothird {
+    flex: 2;
+    padding-right: 30px;
+}
+
+.w3-third {
+    flex: 1;
+    text-align: center;
+}
+
+.header-blur {
+    position: relative;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-blur::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://media.licdn.com/dms/image/v2/C4D1BAQHwvgqUewNm2w/company-background_10000/company-background_10000/0/1583794707176/wihdc_cover?e=2147483647&v=beta&t=QigtobcFPK-pBK_eixdnQQsdMn6wWVhQnLxa-DKotXM') 
+                center/cover no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+}
+#analysis-title {
+        text-align: center;  /* Centers the text */
+        font-weight: bold;   /* Makes it bold */
+        font-size: 48px;     /* Adjusts the font size */
+        margin-top: 50px;    /* Adds space at the top */
+}
+
+
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Analysis Result</h1>
-        <ul>
-            {% for item in analyzer %}
-                <li>{{ item }}</li>
-            {% endfor %}
-        </ul>
-        <a href="{% url 'home' %}" class="home-btn">Back to Home</a>
-    </div>
+
+    <header class="w3-container w3-center header-blur"></header>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="{% url 'home' %}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="{% url 'upload_pdf' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Upload</a>
+    <a href="{% url 'about' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="{% url 'future' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">More</a>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="{% url 'home' %}" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="{% url 'upload_pdf' %}" class="w3-bar-item w3-button w3-padding-large">Upload</a>
+    <a href="{% url 'about' %}" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="{% url 'future' %}" class="w3-bar-item w3-button w3-padding-large">More</a>
+  </div>
+</div>
+    
+        <h1 id="analysis-title">Analysis Result</h1>
+        
+        
+        
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+              <div class="w3-row">
+                
+                <ul>
+                    {% for item in analyzer %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                <!-- Image Section -->
+                <div id="my_dataviz"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+    <script>
+        const male_participants_count = {{ analyzer.0 }};  // self.male_participants_count
+        const female_participants_count = {{ analyzer.1 }}; // self.female_participants_count
+        const male_count = {{ analyzer.2 }};                 // self.male_count
+        const female_count = {{ analyzer.3 }};               // self.female_count
+        const male_pronouns = {{ analyzer.4 }};              // self.male_pronouns
+        const female_pronouns = {{ analyzer.5 }};  
+        var margin = {top: 10, right: 30, bottom: 90, left: 40},
+        width = 690 - margin.left - margin.right,
+        height = 675 - margin.top - margin.bottom;
+
+// Append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Assuming `analyzer` is already defined with the data
+        const data = [
+            {Key: "Male Participants Ratio", Value: {{ analyzer.6 }}},
+            {Key: "Female Participants Ratio", Value: 1 - {{ analyzer.6 }}},
+            {Key: "Male Authors Ratio", Value: {{ analyzer.7 }}},
+            {Key: "Female Authors Ratio", Value: 1 - {{ analyzer.7 }}},
+            {Key: "Male Pronouns Ratio", Value: {{ analyzer.8 }}},
+            {Key: "Female Pronouns Ratio", Value: 1 - {{ analyzer.8 }}}
+        ];
+
+
+// X axis
+        var x = d3.scaleBand()
+        .range([0, width])
+        .domain(data.map(function(d) { return d.Key; }))
+        .padding(0.2);
+
+        svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .attr("transform", "translate(-10,0)rotate(-45)")
+        .style("text-anchor", "end");
+
+// Add Y axis
+        var y = d3.scaleLinear()
+        .domain([0, 1])
+        .range([height, 0]);
+
+        svg.append("g")
+        .call(d3.axisLeft(y));
+
+// Bars
+        const colors = ["#1f77b4", "#ff8da1", "#1f77b4", "#ff8da1", "#1f77b4", "#ff8da1"];
+        svg.selectAll("mybar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("x", function(d) { return x(d.Key); })
+        .attr("width", x.bandwidth())
+        .attr("fill", function(d, i) { return colors[i % colors.length]; })
+        .attr("height", function(d) { return height - y(0); }) // No bar at the beginning
+        .attr("y", function(d) { return y(0); });
+
+// Animation
+        svg.selectAll("rect")
+        .transition()
+        .duration(800)
+        .attr("y", function(d) { return y(d.Value); })
+        .attr("height", function(d) { return height - y(d.Value); })
+        .delay(function(d, i) { return i * 100; });
+
+    
+    const isBiasedTowardMale = {{ analyzer.12 }}; // Last element of analyzer list
+
+    document.getElementById("analysis-title").innerText = 
+        isBiasedTowardMale === 1 
+            ? "Analysis Result: The Paper Is Biased Toward Male" 
+            : "Analysis Result: The Paper Is Neutral";
+
+    </script>
 </body>
 </html>

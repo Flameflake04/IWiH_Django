@@ -208,7 +208,8 @@ class PaperAnalysis:
         print(f"Male Participant Ratio: {self.male_participant_ratio}")
         print(f"Model result: {self.model_result} (0 for not biased toward male, 1 for biased toward male)")
         return [self.male_participants_count, self.female_participants_count, self.male_count, self.female_count, self.male_pronouns, self.female_pronouns, 
-                self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio, self.case_study, self.model_result, self.disease_male_or_female_only]
+                self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio, self.case_study, self.model_result, self.disease_male_or_female_only,
+                self.model_result]
 
     
 if __name__ == "__main__":
