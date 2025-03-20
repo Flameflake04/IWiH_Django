@@ -1,6 +1,6 @@
 import textract
 import re
-import spacy
+#import spacy
 import os
 import openai
 import django
@@ -185,7 +185,7 @@ class PaperAnalysis:
         '''
         self.model_result = self.genderBiasedClassifier.predict(np.array([self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio]))[0][0]
         self.disease_male_or_female_only = self.disease_male_or_female_only.strip("'").lower()
-        
+
         if (self.disease_male_or_female_only == "female"):
             self.male_participant_ratio = 0
             self.male_participants_count = 0
