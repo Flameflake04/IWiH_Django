@@ -51,6 +51,7 @@ class PaperAnalysis:
         self.female_pronouns = len(re.findall(r'\b(she|her|hers|females|female|woman|women)\b', self.pdf_text, re.IGNORECASE))
         print(f"Male Pronouns: {self.male_pronouns}, Female Pronouns: {self.female_pronouns}")
 
+    '''
     def extract_names_with_spacy(self, text):
         nlp = spacy.load("en_core_web_sm")
         doc = nlp(text)
@@ -58,7 +59,7 @@ class PaperAnalysis:
         cleaned_names = self.clean_author_name(names)
         unique_names = list(set(cleaned_names))
         return unique_names
-
+    '''
     # Handle the participant number
     # I am really scared of this function at first, because some research has like men (n = 234), female (n = 235) 
     # And some research has like 9999 males, 10000 females
@@ -97,7 +98,8 @@ class PaperAnalysis:
         match = re.search(r'\b(?:References|Literature Cited)\b', self.pdf_text, re.IGNORECASE)
         if match:
             references_text = self.pdf_text[match.end():].strip()
-            self.author_names = self.extract_names_with_spacy(references_text)
+            self.author_names = []
+            #self.author_names = self.extract_names_with_spacy(references_text)
             print(f"Author Names: {self.author_names}")
             return self.author_names
         else:
@@ -183,6 +185,7 @@ class PaperAnalysis:
         '''
         self.model_result = self.genderBiasedClassifier.predict(np.array([self.male_participant_ratio, self.male_author_ratio, self.male_pronouns_ratio]))[0][0]
         self.disease_male_or_female_only = self.disease_male_or_female_only.strip("'").lower()
+        
         if (self.disease_male_or_female_only == "female"):
             self.male_participant_ratio = 0
             self.male_participants_count = 0
@@ -196,6 +199,7 @@ class PaperAnalysis:
             print("This study conducted a resaerch in male-related diseases")
         else:
             print("The diesase affected both genders")
+
         print(self.male_participant_ratio)
         print(self.male_author_ratio)
         print(self.male_pronouns_ratio)
