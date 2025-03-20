@@ -11,7 +11,7 @@ ipython-genutils
 jedi
 keras
 nameparser
-openai==0.2.8
+openai==0.4.0
 pdfplumber
 pexpect
 prompt-toolkit
