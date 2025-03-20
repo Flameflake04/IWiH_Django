@@ -31,7 +31,7 @@ whitenoise
 textract==1.5.0
 pandas
 genderize
-numpy>=1.22.0
+numpy==1.26.4
 thinc>=8.1.0
 spacy>=3.0.0
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
