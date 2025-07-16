@@ -205,3 +205,4 @@ class PaperAnalysis:
 if __name__ == "__main__":
     analyzer = PaperAnalysis(os.path.join(settings.MEDIA_ROOT, "sample1.pdf"))
     print(analyzer.data_combination())    
+    print()
